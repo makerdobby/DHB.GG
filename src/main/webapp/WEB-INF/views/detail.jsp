@@ -41,14 +41,14 @@ $(function() {
 		<div id="cell-right">
 			<table>
 				<tr>
-					<th><a href="loginboardhome"><img src="./image/list.png"></a>
+					<!-- 글목록 버튼  -->
+					<th> <a href="loginboardhome"><img src="./image/list.png"></a>
 					</th>
 					<th>
 						<!-- 글삭제 버튼 --> ${delBtn}
 					</th>
 				</tr>
 			</table>
-			<!-- 글목록 버튼  -->
 		</div>
 	</header>
 
@@ -185,11 +185,9 @@ function replyInsert(bNum){
 			console.log(error);
 		}
 	});
-	
 };
 
 // 회색이미지 클릭시 추천 +1
-
 function addThumbs(){
 
    if( ${check_t_id} == 2){
@@ -225,11 +223,8 @@ function addThumbs(){
             error: function (err ) {
                
                console.log(err);
-               
             }
       })
-      
-      
    };
 	
 function showalert(){

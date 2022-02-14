@@ -23,7 +23,7 @@ import com.lol.dao.IBoardDao;
 public class BoardMM {
 
 	@Autowired
-	private IBoardDao bDao; // 스프링 매퍼랑 결랍해서 구현체 주입
+	private IBoardDao bDao; // 스프링 매퍼랑 결합해서 구현체 주입
 
 	@Autowired
 	private FileManager fm;

@@ -37,12 +37,10 @@ class BoardRestController {
 	
 	@PostMapping(value="/addthumbs")
 	public int addthumbs(Thumb thumb) {
-		System.out.println(thumb.getT_id());
-		System.out.println(thumb.getT_num());
 		int result;
 		result = bm.addThumbs(thumb);
 		
-		return result;  //jackson이 json으로 변환못하면 Map등 자바객체에 저장할 것.
+		return result; 
 	}
   
   }

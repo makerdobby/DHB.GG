@@ -13,8 +13,7 @@
 </head>
 <body>
 	<%@include file="./includes/header.jsp"%>
-	<form action="./boardwrite" id="frm" method="post"
-		enctype="multipart/form-data">
+	<form action="./boardwrite" id="frm" method="post" enctype="multipart/form-data">
 		<table class="tbl_type">
 			<colgroup>
 				<col width="300">
